@@ -1,1 +1,124 @@
 /* your code here */
+:root{
+	background-color:yellowgreen;
+}
+body{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+.product{
+	background-color:white;
+	width:90%;
+	/* height:80vh; */
+	display:flex;
+	padding:30px 10px;
+}
+
+.product__info{
+	width:55%;
+	/* border:2px solid black; */
+}
+.title h1{
+	margin:0px;
+}
+.title span{
+	color:lightgray;
+}
+.price{
+	color: red;
+	padding: 10px;
+}
+.price span{
+	font-size:44px;
+}
+.variant h3{
+	color:lightgray;
+	
+}
+.variant ul{
+	display:flex;
+}
+.variant ul li{
+	width:44px;
+	height:44px;
+	border:1px solid black;
+	list-style:none;
+}
+.variant ul li img{
+	width:100%;
+	heigth:100%
+}
+
+.benefits h3{
+	color:lightgray;
+	
+}
+.benefits ul li{
+	margin-left:10px;
+}
+button{
+	line-height:34px;
+	color:white;
+	background-color:orangered;
+	border-radius:5px;
+	padding: 0px 20px;
+}
+
+/*  */
+.product__photo{
+	width:100%;
+	box-shadow:10px 20px 20px grey;
+	position:relative;
+	right:30px;
+}
+.photo-container{
+	width:100%;
+	display:flex;
+	flex-direction:column;
+	height:100%;
+	background-color:white;
+	border-radius:10px;
+	/* border:1px solid black; */
+}
+.photo-main{
+	/* border:1px solid black; */
+	width:100%;
+	height:100%;
+	background-color:greenyellow;
+}
+.photo-main img{
+	width:100%;
+}
+
+.controls{
+	color:white;
+	display:flex;
+	justify-content:space-between;
+	padding:10px;
+}
+.photo-album{
+	padding:10px 20px;
+}
+.photo-album ul{
+	display:flex;
+	list-style:none;
+	justify-content:space-evenly;
+	margin:0;
+	padding:0;
+}
+.photo-album ul li{
+	width:50px;
+	height:50px;
+	border:1px solid black;
+}
+.photo-album ul li img{
+	width:50px;
+	height:50px;
+	/* border:1px solid black; */
+}
+
+
+
+
